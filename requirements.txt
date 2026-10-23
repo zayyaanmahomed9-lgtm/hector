@@ -1,7 +1,6 @@
 google-genai
 fastapi
 uvicorn
-pyttsx3
 python-dotenv
 requests
 pydantic
