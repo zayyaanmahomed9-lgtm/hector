@@ -1,16 +1,16 @@
 from fastapi import FastAPI
-import pyttsx3
+#import pyttsx3
 
 app = FastAPI()
 
 # Initialize Voice Synthesis for HECTOR
-engine = pyttsx3.init()
-engine.setProperty('rate', 175)  # Speaking speed
+#engine = pyttsx3.init()
+#engine.setProperty('rate', 175)  # Speaking speed
 
-def speak(text: str):
-    print(f"HECTOR: {text}")
-    engine.say(text)
-    engine.runAndWait()
+#def speak(text: str):
+   # print(f"HECTOR: {text}")
+ #   engine.say(text)
+ #   engine.runAndWait()
 
 @app.get("/")
 def home():
